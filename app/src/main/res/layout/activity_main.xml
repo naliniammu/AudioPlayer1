@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.squareandcube.audioplayer1.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:autoLink="web"
+        android:text="http://android-er.blogspot.com/"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/opendocument"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ACTION_OPEN_DOCUMENT" />
+
+    <Button
+        android:id="@+id/getcontent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ACTION_GET_CONTENT" />
+
+    <Button
+        android:id="@+id/pick"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ACTION_PICK" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <VideoView
+        android:id="@+id/vview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
